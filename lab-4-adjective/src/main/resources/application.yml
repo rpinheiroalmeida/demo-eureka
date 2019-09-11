@@ -1,0 +1,9 @@
+words: reasonable,leaky,suspicious,ordinary,unlikely
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:8010/eureka/

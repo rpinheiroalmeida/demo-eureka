@@ -1,0 +1,13 @@
+#server.port=8010
+
+server:
+  port: 8010
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 30
+  serviceUrl:
+    defaultZone: http://localhost:8010

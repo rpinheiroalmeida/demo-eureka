@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../gap/allocation-catalog-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../gap/allocation-fulfillment-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../gap/allocation-inventory-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../gap/allocation-reporting-event-consumer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../gap/allocation-web" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../gap/target-inventory-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4AdjectiveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-4-adjective" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4adjective.Lab4AdjectiveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-4-article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4article.Lab4ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-4-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4eurekaserver.Lab4EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4NounApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-4-noun" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4noun.Lab4NounApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4SentenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-4-sentence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4sentence.Lab4SentenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4VerbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-4-verb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4verb.Lab4VerbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4431818" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
