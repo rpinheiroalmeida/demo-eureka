@@ -9,10 +9,11 @@
         <module name="lab-4-adjective" />
         <module name="lab-4-article" />
         <module name="demo" />
-        <module name="lab-4-configuration" />
         <module name="lab-4-sentence" />
         <module name="lab-4-eureka-server" />
+        <module name="lab-4-configuration" />
         <module name="lab-4-noun" />
+        <module name="lab-4-adjective (1)" />
         <module name="lab-4-verb" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="lab-4-adjective" options="-parameters" />
+      <module name="lab-4-adjective (1)" options="-parameters" />
       <module name="lab-4-article" options="-parameters" />
       <module name="lab-4-config" options="-parameters" />
       <module name="lab-4-configuration" options="-parameters" />

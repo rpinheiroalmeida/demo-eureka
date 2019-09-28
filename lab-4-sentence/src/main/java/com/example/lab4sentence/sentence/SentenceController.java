@@ -18,7 +18,8 @@ public class SentenceController {
     DiscoveryClient client;
 
     @GetMapping("/sentence")
-    public @ResponseBody String getSentence() {
+    public @ResponseBody
+    String getSentence() {
         return
                 getWord("LAB-4-SUBJECT") + " "
                         + getWord("LAB-4-VERB") + " "
@@ -30,10 +31,10 @@ public class SentenceController {
 
     public String getWord(String service) {
         List<ServiceInstance> list = client.getInstances(service);
-        if (list != null && list.size() > 0 ) {
+        if (list != null && list.size() > 0) {
             URI uri = list.get(0).getUri();
-            if (uri !=null ) {
-                return (new RestTemplate()).getForObject(uri,String.class);
+            if (uri != null) {
+                return (new RestTemplate()).getForObject(uri, String.class);
             }
         }
         return null;
