@@ -8,30 +8,18 @@ import org.springframework.stereotype.Service;
 public class SentenceServiceImpl implements SentenceService {
 
     @Autowired
-    AdjectiveClient adjectiveClient;
-
-    @Autowired
-    ArticleClient articleClient;
-
-    @Autowired
-    NounClient nounClient;
-
-    @Autowired
-    SubjectClient subjectClient;
-
-    @Autowired
-    VerbClient verbClient;
+    WordService wordService;
 
     @Override
     public String buildSentence() {
         String sentence = "There was a problem assembling the sentence!";
         sentence =
                 String.format("%s %s %s %s %s.",
-                        subjectClient.getWord().getString(),
-                        verbClient.getWord().getString(),
-                        articleClient.getWord().getString(),
-                        adjectiveClient.getWord().getString(),
-                        nounClient.getWord().getString() );
+                        wordService.getSubject().getString(),
+                        wordService.getVerb().getString(),
+                        wordService.getArticle().getString(),
+                        wordService.getAdjective().getString(),
+                        wordService.getNoun().getString());
         return sentence;
     }
 

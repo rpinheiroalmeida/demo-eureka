@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27848669-86de-499a-90b5-1ff635ae5336" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab-4-sentence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/sentence/SentenceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/controller/SentenceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-word/src/main/java/com/example/lab4word/WordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-word/src/main/java/com/example/lab4word/WordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-word/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-word/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-4-word/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-word/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,28 +37,102 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-word/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/ArticleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-noun/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="54" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="54" />
+            <state relative-caret-position="335">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab-4-word/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="521">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+                <element signature="e#1247#1248#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1733#1734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -101,11 +174,9 @@
         <option value="$PROJECT_DIR$/lab-4-subject/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/lab-4-word/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/sentence/SentenceController.java" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/java/com/example/lab4word/Word.java" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/java/com/example/lab4word/WordController.java" />
-        <option value="$PROJECT_DIR$/lab-4-sentence/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/SubjectClient.java" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/VerbClient.java" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/ArticleClient.java" />
@@ -114,9 +185,14 @@
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/domain/Word.java" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/controller/SentenceController.java" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/AdjectiveClient.java" />
-        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lab-4-word/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordService.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -162,51 +238,52 @@
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-subject" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-subject" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-subject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-word" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-word" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-word" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-word" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4sentence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -384,17 +461,27 @@
       <option name="presentableId" value="Default" />
       <updated>1568175821022</updated>
       <workItem from="1568175825139" duration="2629000" />
-      <workItem from="1569731237605" duration="495000" />
+      <workItem from="1569731237605" duration="3026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14405000" />
+    <option name="totallyTimeSpent" value="16936000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.32783884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.32783884" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.25274727" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -417,7 +504,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.498779" visible="true" weight="0.5743315" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.498779" visible="true" weight="0.3604278" />
       <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -435,14 +522,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab-4-configuration/src/main/java/com/example/lab4config/Lab4ConfigApplication.java" />
-    <entry file="file://$PROJECT_DIR$/lab-4-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="51" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-4-config/pom.xml" />
     <entry file="file://$PROJECT_DIR$/lab-4-config/src/main/java/com/example/lab4config/Lab4ConfigApplication.java" />
     <entry file="file://$PROJECT_DIR$/lab-4-configuration/src/main/java/com/example/lab4configuration/Lab4ConfigurationApplication.java">
@@ -560,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-word/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-4-noun/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -595,13 +667,6 @@
             <element signature="e#424#425#0" expanded="true" />
             <element signature="e#492#493#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -635,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/domain/Word.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -669,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/AdjectiveClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -686,30 +734,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/ArticleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -775,6 +799,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-word/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/ArticleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
