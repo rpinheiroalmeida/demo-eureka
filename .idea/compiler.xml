@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lab-4-adjective" />
         <module name="lab-4-article" />
+        <module name="lab-4-word" />
         <module name="demo" />
         <module name="lab-4-sentence" />
-        <module name="lab-4-word" />
         <module name="lab-4-eureka-server" />
         <module name="lab-4-configuration" />
         <module name="lab-4-noun" />

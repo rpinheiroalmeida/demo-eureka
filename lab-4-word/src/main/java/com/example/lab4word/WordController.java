@@ -14,7 +14,7 @@ public class WordController {
     @Value("${words}") String[] words;
 
     @GetMapping("/")
-    public String getWord() {
-        return words[random.nextInt(words.length)];
+    public Word getWord() {
+        return new Word(words[random.nextInt(words.length)]);
     }
 }
