@@ -7,11 +7,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-config/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-5-word/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-4-word/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/lab-4-config/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-5-word/pom.xml" />
       </set>
     </option>
   </component>

@@ -25,7 +25,9 @@
         <module>lab-4-noun</module>
         <module>lab-4-sentence</module>
         <module>lab-4-verb</module>
-        <module>lab-4-config</module>
+        <module>lab-4-configuration</module>
+        <module>lab-4-word</module>
+        <module>lab-4-subject</module>
     </modules>
 
     <build>
