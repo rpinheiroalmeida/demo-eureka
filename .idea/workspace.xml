@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27848669-86de-499a-90b5-1ff635ae5336" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-sentence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab-4-word/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab-4-word/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/lab-4-subject/target/" />
     <ignored path="$PROJECT_DIR$/lab-5-word/target/" />
     <ignored path="$PROJECT_DIR$/lab-4-word/target/" />
+    <ignored path="$PROJECT_DIR$/lab-4-sentence-reactive/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +36,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/repository/ArticleClient.java">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Word.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/controller/SentenceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,37 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/pom.xml">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="191">
+              <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/WordService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,51 +101,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="183">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#940#941#0" expanded="true" />
-                <element signature="e#983#984#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1392#1393#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-                <element signature="e#1617#1618#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1697#1698#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1649#1650#0" expanded="true" />
+                <element signature="e#1993#1994#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+                <element signature="e#2773#2774#0" expanded="true" />
+                <element signature="e#2828#2829#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordService.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/Observable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="191">
+              <caret line="1664" column="31" selection-start-line="1664" selection-start-column="31" selection-end-line="1664" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/SentenceService.java">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Sentence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/SentenceService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -170,7 +184,6 @@
         <option value="$PROJECT_DIR$/lab-5-word/pom.xml" />
         <option value="$PROJECT_DIR$/lab-5-word/src/main/java/com/example/lab5word/Lab5WordApplication.java" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/java/com/example/lab4word/Lab4WordApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-subject/pom.xml" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/lab-4-word/src/main/resources/bootstrap.yml" />
@@ -193,6 +206,14 @@
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/Lab4SentenceApplication.java" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/controller/SentenceController.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Word.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/WordService.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Sentence.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -238,25 +259,25 @@
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -264,7 +285,7 @@
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -273,20 +294,32 @@
             <path>
               <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab4sentence" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="lab-4-sentence-reactive" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lab4sentence" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-eureka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="lab-4-sentence" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,6 +338,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -313,6 +347,9 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.lab4sentence.domain" />
     </key>
@@ -334,10 +371,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Lab4WordApplication-cold-noun">
+  <component name="RunManager" selected="Spring Boot.Lab4SentenceApplication (1)">
     <configuration name="Lab4EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lab-4-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4eurekaserver.Lab4EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab4SentenceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab-4-sentence-reactive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lab4sentence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lab4sentence.Lab4SentenceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -448,7 +498,13 @@
       <item itemvalue="Spring Boot.Lab4WordApplication-article" />
       <item itemvalue="Spring Boot.Lab4WordApplication-verb" />
       <item itemvalue="Spring Boot.Lab4WordApplication-subject" />
+      <item itemvalue="Spring Boot.Lab4SentenceApplication (1)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Lab4SentenceApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -461,12 +517,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568175821022</updated>
       <workItem from="1568175825139" duration="2629000" />
-      <workItem from="1569731237605" duration="3026000" />
+      <workItem from="1569731237605" duration="5245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16936000" />
+    <option name="totallyTimeSpent" value="19155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,65 +578,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab-4-config/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/lab-4-config/src/main/java/com/example/lab4config/Lab4ConfigApplication.java" />
-    <entry file="file://$PROJECT_DIR$/lab-4-configuration/src/main/java/com/example/lab4configuration/Lab4ConfigurationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-configuration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-subject/src/main/java/com/example/lab4subject/Lab4SubjectApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-configuration/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/sentence/LoadBalanceClient.java" />
-    <entry file="file://$PROJECT_DIR$/lab-4-verb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="57" selection-start-line="21" selection-start-column="4" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-5-word/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/lab-5-word/pom.xml" />
     <entry file="file://$PROJECT_DIR$/lab-5-word/src/main/java/com/example/lab5word/Lab5WordApplication.java" />
@@ -737,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab-4-subject/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -860,14 +850,14 @@
     <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab-4-sentence/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
+          <caret line="70" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
@@ -890,6 +880,116 @@
             <element signature="e#1660#1661#0" expanded="true" />
             <element signature="e#1697#1698#0" expanded="true" />
             <element signature="e#1733#1734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/controller/SentenceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/SentenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/SentenceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/WordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="1664" column="31" selection-start-line="1664" selection-start-column="31" selection-end-line="1664" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/domain/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab-4-sentence-reactive/src/main/java/com/example/lab4sentence/service/WordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
           </folding>
         </state>
       </provider>

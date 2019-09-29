@@ -28,6 +28,7 @@
         <module>lab-4-configuration</module>
         <module>lab-4-word</module>
         <module>lab-4-subject</module>
+        <module>lab-4-sentence-reactive</module>
     </modules>
 
     <build>
